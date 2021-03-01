@@ -1177,7 +1177,7 @@ a {
 	transform: translate(-50%, -50%);
 }
 .mySection2 {
-	background-color: rgb(192, 184, 184);
+	background-color: white;
 }
 
 .box *:last-child {
@@ -1185,14 +1185,12 @@ a {
 }
 
 .box-4 {
-	box-shadow: 0 10px 10px rgba(255, 0, 0, 0.2);
+	/* box-shadow: 0 10px 10px rgba(255, 0, 0, 0.2); */
 	position: relative;
 	width: 70%;
 }
 
 .box-content {
-	background: none repeat scroll 0 0 #ffffff;
-	background-color: #f3f3f3;
 	padding: 25px 55px 45px 55px;
 	position: relative;
 	z-index: 1;
@@ -1200,7 +1198,7 @@ a {
 	flex-direction: column;
 	align-items: center;
 }
-.box-4:after {
+/* .box-4:after {
 	border-radius: 0 0 50% 50% / 0 0 20px 20px;
 	bottom: 0;
 	box-shadow: 0 20px 20px rgba(255, 0, 0, 0.2);
@@ -1209,7 +1207,7 @@ a {
 	left: 10px;
 	position: absolute;
 	right: 10px;
-}
+} */
 
 .ct-img {
 	display: block;
@@ -1281,7 +1279,7 @@ a {
 	height: 20px;
 }
 
-.h-divider .shadow:after {
+/* .h-divider .shadow:after {
 	content: "";
 	display: block;
 	margin: -25px auto 0;
@@ -1289,7 +1287,7 @@ a {
 	height: 25px;
 	border-radius: 125px/12px;
 	box-shadow: 0 0 8px black;
-}
+} */
 .ctPage {
 	display: flex;
 	align-items: start;
@@ -1313,7 +1311,7 @@ a {
 }
 svg {
 	height: 23rem;
-	margin-right: 4rem;
+	margin-left: 4rem;
 }
 
 #envelope {
