@@ -48,7 +48,7 @@ section {
 .bg img {
 	width: 100vw;
 	height: 100vh;
-	filter: brightness(0.5);
+	/* filter: brightness(0.5); */
 }
 
 .rock1 {
@@ -167,10 +167,10 @@ section {
 }
 
 .swiper-slide:nth-child(1) .slide-img {
-	/* background-image: url("images/mercury.png"); */
+	background-image: url("images/154889903_435760311078698_4006374530347110914_n.png");
 }
 .swiper-slide:nth-child(2) .slide-img {
-	/* background-image: url("images/venus.png"); */
+	background-image: url("images/venus.png");
 }
 .swiper-slide:nth-child(3) .slide-img {
 	/* background-image: url("images/earth1.png"); */
@@ -195,8 +195,8 @@ section {
 	background-position: "center";
 	background-repeat: no-repeat !important;
 	background-size: contain;
-	width: 30%;
-	height: 100%;
+	width: 400px;
+	height: 400px;
 }
 
 .slide-number {
@@ -207,17 +207,20 @@ section {
 	height: 120px;
 	overflow: hidden;
 	z-index: 10;
+	display: block;
 }
 
 .slide-number p {
 	font-size: 35px;
 	font-family: "AlphaCentauri" !important;
-	color: #fff;
+	color: black;
 	position: relative;
 }
 
 .slide-number p span {
 	position: absolute;
+	margin-left: 40px;
+	font-size: 5vh;
 }
 
 .slide-detail {
@@ -232,7 +235,7 @@ section {
 
 .slide-detail p {
 	font-size: 14px;
-	color: #fff;
+	color: #777777;
 	position: relative;
 	opacity: 0.8;
 	line-height: 10px;
@@ -240,6 +243,8 @@ section {
 
 .slide-detail p span {
 	position: absolute;
+	font-size: 3vh;
+	line-height: 1;
 }
 
 .slide-detail-facts {
@@ -278,10 +283,11 @@ section {
 }
 .slide-text h4 span {
 	position: absolute;
+	color: #000;
 }
 .nav {
 	width: 100%;
-	height: 65px;
+	height: 90px;
 
 	position: fixed;
 	line-height: 65px;
@@ -1276,7 +1282,6 @@ a {
 
 .h-divider .shadow {
 	overflow: hidden;
-	height: 20px;
 }
 
 /* .h-divider .shadow:after {
@@ -1374,3 +1379,6 @@ svg {
 		opacity: 1;
 	}
 }
+/* .myMission {
+	background-color: #f9faff;
+} */
