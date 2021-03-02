@@ -92,15 +92,15 @@ slider.on("slideChange", function () {
 	gsap.to(".swiper-slide-active", 0.5, {
 		scale: 0.85,
 	});
-	gsap.to(".swiper-slide .slide-img", 1, {
-		rotation: 20,
-	});
+	// gsap.to(".swiper-slide .slide-img", 1, {
+	// 	rotation: 20,
+	// });
 });
 
 slider.on("slideChangeTransitionEnd", function () {
-	gsap.to(".swiper-slide .slide-img", 1, {
-		rotation: 10,
-	});
+	// gsap.to(".swiper-slide .slide-img", 1, {
+	// 	rotation: 10,
+	// });
 	gsap.to(".slide-text span", 0.2, {
 		x: 0,
 		delay: 0.1,
