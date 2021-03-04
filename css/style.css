@@ -445,7 +445,7 @@ section {
 		bottom: 0;
 		background-color: #111;
 		/*same background color of navbar*/
-		background-position: center top;
+		/* background-position: center top;
 	}
 	.nav div.main_list ul li {
 		width: 100%;
@@ -459,7 +459,7 @@ section {
 	.nav div.media_button {
 		display: block;
 	}
-}
+} */
 
 /* Animation */
 /* Inspiration taken from Dicson https://codemyui.com/simple-hamburger-menu-x-mark-animation/ */
@@ -1767,7 +1767,7 @@ section {
 	font-weight: 800;
 	color: white;
 	overflow: hidden;
-	/* background: linear-gradient(to right, black, black 50%, white 50%); */
+	background: linear-gradient(to right, black, black 50%, white 50%);
 
 	background-clip: text;
 	-webkit-background-clip: text;
