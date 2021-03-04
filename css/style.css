@@ -1481,7 +1481,7 @@ svg {
 	display: block;
 	width: 0;
 	height: 90px;
-	background: red;
+	/* background: red; */
 	border-left: 4px solid #fff;
 	left: 45.45%;
 	position: relative;
