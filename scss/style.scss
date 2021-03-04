@@ -23,7 +23,7 @@ nav  a {
   text-decoration: none;
   padding-bottom: 8px;
 }
-nav  a:before, a:after {
+nav  a:before, nav a:after {
   content: "";
   position: absolute;
   bottom: 2px;
@@ -42,13 +42,13 @@ nav a:after {
   transform: translateY(4px);
   transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.2s;
 }
-nav a:hover:before, a:hover:after, a:focus:before, a:focus:after {
+nav a:hover:before,nav  a:hover:after, nav a:focus:before,nav  a:focus:after {
   opacity: 1;
   transform: translateY(0);
 }
-nav a:hover:before, a:focus:before {
+nav a:hover:before, nav a:focus:before {
   transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.2s;
 }
-nav a:hover:after, a:focus:after {
+nav a:hover:after, nav a:focus:after {
   transition: transform 0s 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0s 0.2s;
 }

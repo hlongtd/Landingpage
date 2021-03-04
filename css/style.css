@@ -2816,7 +2816,7 @@ svg {
 	padding: 0 20px;
 }
 
-a:focus {
+.content a:focus {
 	/* outline: 2px dashed #f7f7f7; */
 }
 
@@ -2826,13 +2826,13 @@ a:focus {
 	}
 }
 
-ul {
+.content ul {
 	padding: 0;
 	margin: 0;
 	list-style: none;
 }
 
-ul a {
+.content ul a {
 	display: block;
 	background: #ccc;
 	/* border: 4px solid #fff; */
@@ -2851,12 +2851,13 @@ ul a {
 }
 
 @media all and (max-width: 767px) {
-	ul a {
+	.content ul a {
 		font-size: 1em;
 	}
 }
 
-ul a span {
+.content ul a {
+	
 	/* top: 50%; */
 	margin-top: 0.4em;
 	display: block;
