@@ -402,7 +402,8 @@ section {
 
 #sectiontwo
 {
-	background-image:url("https://res.cloudinary.com/dbjatetvr/image/upload/v1614686461/Asset_4_wugf4h.png") ;
+	
+	/* background-image:url("https://res.cloudinary.com/dbjatetvr/image/upload/v1614686461/Asset_4_wugf4h.png") ; */
 	width: 100%;
 	background-repeat: no-repeat;
  	background-size: cover;
@@ -2746,7 +2747,7 @@ svg {
 
 /* for scss */
 
-.navlinks {
+/* .navlinks {
 	list-style-type: none;
 	margin: 0;
 	text-align: center;
@@ -2798,7 +2799,7 @@ svg {
   
   
   
-  
+   */
   #wrapper {
 	  margin-left: auto;
 	  margin-right: auto;
