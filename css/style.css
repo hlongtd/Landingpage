@@ -1189,7 +1189,7 @@ a {
 	color: #fff;
 
 	position: absolute;
-	left: 50%;
+	left: 40%;
 	transform: translate(-50%, -50%);
 }
 .mySection2 {
@@ -1468,7 +1468,7 @@ section {
 	color: #fff;
 
 	position: absolute;
-	left: 50%;
+	left: 30%;
 	transform: translate(-50%, -50%);
 }
 
@@ -2525,8 +2525,8 @@ a {
 	flex-direction: column;
 }
 .Name {
-	font-size: 6vw;
-	top: 30%;
+	font-size: 4.5vw;
+	top: 35%;
 }
 .my-slogan {
 	font-size: 2vw;
@@ -2536,7 +2536,7 @@ a {
 	color: #fff;
 
 	position: absolute;
-	left: 50%;
+	left: 30%;
 	transform: translate(-50%, -50%);
 }
 .mySection2 {
