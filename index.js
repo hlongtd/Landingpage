@@ -188,11 +188,16 @@ $(".navTrigger").click(function () {
 $(".hover").mouseleave(function () {
 	$(this).removeClass("hover");
 });
-document
-	.querySelector("#contact-form")
-	.addEventListener("submit", function (e) {
-		e.preventDefault();
-		e.target.elements.name.value = "";
-		e.target.elements.email.value = "";
-		e.target.elements.message.value = "";
+
+	$(window).scroll(function () {
+		if ($(document).scrollTop() > 500) {
+			$(".nav").addClass("affix");
+			$("#dm-a :after ").addClass("size");
+			$("a").addClass("dm-navContainer");
+			console.log("OK");
+		} else {
+			$(".nav").removeClass("affix");
+			$("#dm-a:after").removeClass("size");
+			$("a").removeClass("dm-navContainer");
+		}
 	});

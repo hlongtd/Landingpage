@@ -651,7 +651,9 @@ section {
 
 .affix {
 	padding: 0;
-	background-color: #111;
+	background: linear-gradient(
+45deg
+, #29bae4 0%, #ee76ad 100%);width: 100%;
 }
 
 .myH2 {
@@ -1997,7 +1999,6 @@ section {
 }
 
 .affix {
-	padding: 0;
 	background-color: #111;
 }
 
