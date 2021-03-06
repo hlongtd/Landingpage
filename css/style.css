@@ -69,7 +69,9 @@ section {
 
 .text h1 {
 	font-family: "AlphaCentauri" !important;
-	color: #fff;
+	color: linear-gradient(
+		45deg
+		, #29bae4 0%, #ee76ad 100%);
 
 	position: absolute;
 	left: 50%;
@@ -408,9 +410,10 @@ section {
 
 #sectionone
 {
-	background: linear-gradient(
+	/* background: linear-gradient(
 45deg
-, #29bae4 0%, #ee76ad 100%);width: 100%;
+, #29bae4 0%, #ee76ad 100%);width: 100%; */
+background: url("https://res.cloudinary.com/dien180901/image/upload/v1615021928/157771521_789215091979320_5831966028560821316_n_nyzlrx.jpg");
 	background-repeat: no-repeat;
  	background-size: cover;
 }
@@ -1483,7 +1486,8 @@ section {
 
 .text h1 {
 	font-family: "AlphaCentauri" !important;
-	color: #fff;
+	color: linear-gradient(45deg, #29bae4 0%, #ee76ad 100%);
+;
 
 	position: absolute;
 	left: 30%;
@@ -2551,7 +2555,9 @@ a {
 	height: auto;
 	top: 50%;
 	font-family: "AlphaCentauri" !important;
-	color: #fff;
+	color: linear-gradient(
+		45deg
+		, #29bae4 0%, #ee76ad 100%)!important;
 
 	position: absolute;
 	left: 30%;
@@ -3117,4 +3123,11 @@ svg {
   .structure{
 	  width:80% !important;
 	  left:10%!important;
+  }
+  .home-page-img{
+	  position: absolute;
+	  height:50vw;
+	  width:50vw;
+	  left:50%;
+	  top:10%;
   }
