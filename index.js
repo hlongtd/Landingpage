@@ -190,11 +190,10 @@ $(".hover").mouseleave(function () {
 });
 
 	$(window).scroll(function () {
-		if ($(document).scrollTop() > 500) {
+		if ($(document).scrollTop() > 50) {
 			$(".nav").addClass("affix");
 			$("#dm-a :after ").addClass("size");
 			$("a").addClass("dm-navContainer");
-			console.log("OK");
 		} else {
 			$(".nav").removeClass("affix");
 			$("#dm-a:after").removeClass("size");
@@ -231,7 +230,7 @@ $(".hover").mouseleave(function () {
 			$("#features-nav").removeClass("my-nav-a");
 			$("#contact-nav").removeClass("my-nav-a");
 			$("#about-nav").addClass("my-nav-a");
-			// $("#about-nav :after").addClass("nav-after");
+			$("#about-nav:after ").addClass("nav-after");
 			// $("#about-nav :after").addClass("nav-after");
 
 		}else{
