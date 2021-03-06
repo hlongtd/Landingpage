@@ -22,15 +22,25 @@ a {
   text-transform: uppercase;
   text-decoration: none;
   padding-bottom: 8px;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  background: linear-gradient(to right, black, black 50%, white 50%);
+  &:hover {
+    background-position: 0 100%;
+  }
 }
+
 a:before, a:after {
   content: "";
   position: absolute;
   bottom: 2px;
   left: 0;
   right: 0;
-  height: 2px;
-  background-color: #f37272;
+  height: 4px;
+  background-color: black;
 }
 a:before {
   opacity: 0;

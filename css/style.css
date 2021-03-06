@@ -362,7 +362,7 @@ section {
 	font-weight: 800;
 	color: white;
 	overflow: hidden;
-	background: linear-gradient(to right, #fff, #fff, white 50%);
+	/* background: linear-gradient(to right, #fff, #fff, white 50%); */
 
 	background-clip: text;
 	-webkit-background-clip: text;
@@ -393,8 +393,9 @@ section {
 
 #sectionone
 {
-	background-image:url("https://res.cloudinary.com/dbjatetvr/image/upload/v1614685946/Asset_3_wpokfv.png") ;
-	width: 100%;
+	background: linear-gradient(
+45deg
+, #29bae4 0%, #ee76ad 100%);width: 100%;
 	background-repeat: no-repeat;
  	background-size: cover;
 }
