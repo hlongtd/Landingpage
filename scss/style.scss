@@ -32,6 +32,9 @@ nav a {
     background-position: 0 100%;
   }
 }
+.my-nav-a{
+  background-position: 0 100%!important;
+}
 
 nav a:before,nav  a:after {
   content: "";
@@ -42,7 +45,36 @@ nav a:before,nav  a:after {
   height: 4px;
   background-color: black;
 }
+.nav-before{
+  content: "";
+  position: absolute;
+  bottom: 2px;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background-color: black;
+  opacity: 0;
+  transform: translateY(-8px);
+  transition: transform 0s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0s;
+  opacity: 1;
+  transform: translateY(0);
+  transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.2s;
+}
+.nav-after{
+  content: "";
+  position: absolute;
+  bottom: 2px;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background-color: black;
+  opacity: 0;
+  transform: translateY(4px);
+  transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.2s;
+  transition: transform 0s 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0s 0.2s;
+}
 nav a:before {
+  
   opacity: 0;
   transform: translateY(-8px);
   transition: transform 0s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0s;

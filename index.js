@@ -201,3 +201,44 @@ $(".hover").mouseleave(function () {
 			$("a").removeClass("dm-navContainer");
 		}
 	});
+	function vh(v) {
+		var h = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
+		return (v * h) / 100;
+	  }
+	$(window).scroll(function () {
+		console.log(vh(100))
+		 if ($(document).scrollTop() > vh(400)-90) {
+			
+			$("#achievements-nav").removeClass("my-nav-a");
+			$("#features-nav").removeClass("my-nav-a");
+			$("#about-nav").removeClass("my-nav-a");
+			$("#contact-nav").addClass("my-nav-a");	
+		}else if ($(document).scrollTop() >vh(300)-90) {
+			
+			$("#about-nav").removeClass("my-nav-a");
+			$("#features-nav").removeClass("my-nav-a");
+			$("#contact-nav").removeClass("my-nav-a");
+			$("#achievements-nav").addClass("my-nav-a");	
+		} else if ($(document).scrollTop() > vh(200)-90) {
+			$("#achievements-nav").removeClass("my-nav-a");
+			$("#about-nav").removeClass("my-nav-a");
+			$("#contact-nav").removeClass("my-nav-a");
+			$("#features-nav").addClass("my-nav-a");
+			// $("#about-nav").removeClass("my-nav-a-hover");
+			// console.log($(document).scrollTop())
+		}else if ($(document).scrollTop() > vh(100)-90) {
+			$("#achievements-nav").removeClass("my-nav-a");
+			$("#features-nav").removeClass("my-nav-a");
+			$("#contact-nav").removeClass("my-nav-a");
+			$("#about-nav").addClass("my-nav-a");
+			// $("#about-nav :after").addClass("nav-after");
+			// $("#about-nav :after").addClass("nav-after");
+
+		}else{
+			$("#achievements-nav").removeClass("my-nav-a");
+			$("#features-nav").removeClass("my-nav-a");
+			$("#contact-nav").removeClass("my-nav-a");
+			$("#about-nav").removeClass("my-nav-a");
+		}
+		
+	});

@@ -1,3 +1,6 @@
+html{
+	scroll-behavior: smooth;
+}
 body {
 	margin: 0;
 	padding: 0;
@@ -43,6 +46,7 @@ nav .nav-links ul li img {
 section {
 	height: 100vh;
 	overflow: hidden;
+	/* background-color: #25d366; */
 }
 
 .bg img {
@@ -112,10 +116,18 @@ section {
 
 /* SWIPER */
 
-#sectiontwo {
+#sectiontwo,#sectionthree,#sectionfour,#sectionfive {
 	width: 100%;
 	height: 100vh;
 	position: relative;
+
+}
+#sectionthree,#sectionfour,#sectionfive{
+	background: linear-gradient(
+45deg
+, #29bae4 0%, #ee76ad 100%);width: 100%;
+	background-repeat: no-repeat;
+ 	background-size: cover;
 }
 
 .rockbg1 {
@@ -208,6 +220,7 @@ section {
 	height: 120px;
 	overflow: hidden;
 	z-index: 10;
+	color:black;
 }
 
 .slide-number p {
@@ -1617,7 +1630,7 @@ section {
 .slide-number p {
 	font-size: 35px;
 	font-family: "AlphaCentauri" !important;
-	color: #fff;
+	color: black;
 	position: relative;
 }
 
@@ -1687,7 +1700,7 @@ section {
 }
 .slide-text h4 span {
 	position: absolute;
-	color: #fff;
+	color: #251818;
 }
 .nav {
 	width: 100%;
