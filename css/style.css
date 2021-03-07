@@ -127,7 +127,7 @@ section {
 }
 #sectionthree,#sectionfour,#sectionfive{
 	background: linear-gradient(
-45deg
+272deg
 , #29bae4 0%, #ee76ad 100%);width: 100%;
 	background-repeat: no-repeat;
  	background-size: cover;
@@ -228,7 +228,7 @@ section {
 
 .slide-number p {
 	font-size: 35px;
-	font-family: "AlphaCentauri" !important;
+	font-family: "Roboto" !important;
 	color: #fff;
 	position: relative;
 }
@@ -249,14 +249,14 @@ section {
 	height:auto;
 	overflow: hidden;
 }
-
+/* 
 .slide-detail p {
 	font-size: 14px;
 	color: #fff;
 	position: relative;
 	opacity: 0.8;
 	line-height: 10px;
-}
+} */
 
 .slide-detail p span {
 	position: absolute;
@@ -1338,7 +1338,7 @@ strong {
 .ctPage {
 	display: flex;
 	align-items: start;
-	/* margin-top: 100px; */
+	margin-top: 300px;
 	margin-bottom: 100px;
 	justify-content: center;
 }
@@ -1487,7 +1487,7 @@ section {
 }
 
 .text h1 {
-	font-family: "AlphaCentauri" !important;
+	font-family: "Roboto" !important;
 	color: linear-gradient(45deg, #29bae4 0%, #ee76ad 100%);
 ;
 
@@ -1637,7 +1637,7 @@ section {
 
 .slide-number p {
 	font-size: 35px;
-	font-family: "AlphaCentauri" !important;
+	font-family: "Roboto" !important;
 	color: black;
 	position: relative;
 }
@@ -1659,17 +1659,20 @@ section {
 }
 
 .slide-detail p {
+	font-family: "Roboto" !important;
 	font-size: 14px;
-	color: #777777;
+	color: #000;
 	position: relative;
 	opacity: 0.8;
 	line-height: 10px;
 }
 
 .slide-detail p span {
+	font-family: "Roboto" !important;
+	color: #111;
 	position: absolute;
 	font-size: 3vh;
-	line-height: 1;
+	line-height: 1.5;
 }
 
 .slide-detail-facts {
@@ -2556,7 +2559,7 @@ a {
 	font-size: 2vw;
 	height: auto;
 	top: 50%;
-	font-family: "AlphaCentauri" !important;
+	font-family: "Roboto" !important;
 	color: linear-gradient(
 		45deg
 		, #29bae4 0%, #ee76ad 100%)!important;
@@ -2652,13 +2655,6 @@ a {
 	border-radius: 125px/12px;
 	box-shadow: 0 0 8px black;
 } */
-.ctPage {
-	display: flex;
-	align-items: start;
-	/* margin-top: 100px; */
-	margin-bottom: 100px;
-	justify-content: center;
-}
 .section1 {
 	background-image: url("/images/Scene\ 1.png");
 	background-size: auto;
