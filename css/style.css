@@ -180,6 +180,7 @@ section {
 .swiper-slide {
 	width: 90% !important;
 	background: transparent;
+	margin-top: 10px;
 }
 
 .swiper-slide:nth-child(1) .slide-img {
@@ -1539,7 +1540,7 @@ section {
 
 #sectiontwo {
 	width: 100%;
-	height: 100vh;
+	height: 100px;
 	position: relative;
 }
 
@@ -1590,6 +1591,7 @@ section {
 .swiper-slide {
 	width: 90% !important;
 	background: transparent;
+	margin-top: 10px;
 }
 
 .swiper-slide:nth-child(1) .slide-img {
