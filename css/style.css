@@ -180,7 +180,7 @@ section {
 .swiper-slide {
 	width: 90% !important;
 	background: transparent;
-	margin-top: 10px;
+	margin-top: 160px;
 }
 
 .swiper-slide:nth-child(1) .slide-img {
@@ -285,8 +285,8 @@ section {
 
 .slide-text {
 	position: absolute;
-	top: -150px;
-	left: 22%;
+	top: -20%;
+	left: 24%;
 	z-index: 9;
 	width: 200px;
 	height: 400px;
