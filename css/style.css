@@ -3232,8 +3232,9 @@ svg {
   .onboarding-subtitle {
 		padding: 0 5px;
 	  font-size: 14px;
-	  color: #aaa;
+	  color: #000;
 	  line-height: 22px;
+	  font-family: "Roboto" !important;
   }
   
   .onboarding-action-bar {
