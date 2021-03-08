@@ -1588,11 +1588,11 @@ section {
 	transition-delay: 0.5s;
 }
 
-.swiper-slide {
+/* .swiper-slide {
 	width: 90% !important;
 	background: transparent;
 	margin-top: 10px;
-}
+} */
 
 .swiper-slide:nth-child(1) .slide-img {
 	background-image: url("images/154889903_435760311078698_4006374530347110914_n.png");
