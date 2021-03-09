@@ -244,7 +244,7 @@ section {
 .slide-detail {
 	position: absolute;
 	top: 130px;
-	left: 30%;
+	left: 14%;
 	z-index: 10;
 	width: 50%;
 	min-height: 400px;
@@ -1658,7 +1658,7 @@ section {
 .slide-detail {
 	position: absolute;
 	top: 130px;
-	left: 30%;
+	left: 14%;
 	z-index: 10;
 	width: 50%;
 	height: auto;
@@ -3295,5 +3295,5 @@ svg {
   }
   .s2order{
 	  font-size:4rem;
-	  color:rgb(243, 236, 236);
+	  color: rgb(125 119 119 / 27%);
   }
