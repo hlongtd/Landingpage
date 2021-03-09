@@ -191,11 +191,11 @@ $(".hover").mouseleave(function () {
 
 	$(window).scroll(function () {
 		if ($(document).scrollTop() > 50) {
-			$(".nav").addClass("affix");
+			$(".dm-nav").addClass("dm-affix");
 			$("#dm-a :after ").addClass("size");
 			$("a").addClass("dm-navContainer");
 		} else {
-			$(".nav").removeClass("affix");
+			$(".dm-nav").removeClass("dm-affix");
 			$("#dm-a:after").removeClass("size");
 			$("a").removeClass("dm-navContainer");
 		}
